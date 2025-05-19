@@ -5,7 +5,7 @@ import Navbar from "@/components/Navbar";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-black text-white overflow-x-hidden">
+    <div className="min-h-screen bg-black text-white overflow-x-hidden font-sans">
       {/* Navbar */}
       <Navbar />
       
@@ -28,10 +28,10 @@ const Index = () => {
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 mb-24">
-          <Button className="px-8 py-6">Get Started Now</Button>
+          <Button className="px-8 py-6 text-white font-medium">Get Started Now</Button>
           <Button 
             variant="outline" 
-            className="px-8 py-6 border-gray-600 hover:bg-gray-800"
+            className="px-8 py-6 border-gray-600 hover:bg-gray-800 text-white font-medium"
           >
             See Projects
           </Button>

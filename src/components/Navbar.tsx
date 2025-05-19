@@ -8,7 +8,7 @@ const Navbar = () => {
         <nav className="flex items-center justify-between">
           <div className="flex items-center gap-2">
             <div className="w-6 h-6 border-2 border-white"></div>
-            <span className="font-medium text-lg">Portfolite</span>
+            <span className="font-medium text-lg">Logo</span>
           </div>
           
           <div className="hidden md:flex items-center gap-8">
@@ -18,7 +18,7 @@ const Navbar = () => {
             <NavLink href="#contact">Contact</NavLink>
           </div>
           
-          <Button className="hidden md:flex items-center gap-2">
+          <Button className="hidden md:flex items-center gap-2 bg-white text-black hover:bg-gray-100">
             <span>Get Template</span>
           </Button>
           
