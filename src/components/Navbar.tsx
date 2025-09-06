@@ -19,10 +19,7 @@ const Navbar = () => {
           <div className="flex items-center justify-between">
             {/* Logo */}
             <div className="flex items-center gap-3">
-              <img src="/logo.png" alt="Logo" className="w-8 h-8" />
-              <span className="font-bold text-white text-lg tracking-tight">
-                TuneSpark
-              </span>
+              <img src="/logo.png" alt="Logo" className="h-10" />
             </div>
 
             {/* Desktop Navigation */}
@@ -38,7 +35,7 @@ const Navbar = () => {
             <div className="hidden lg:flex items-center">
               <Button 
                 variant="default" 
-                className="bg-white text-black hover:bg-gray-100 transition-all duration-200 font-medium px-6 py-2 rounded-xl shadow-sm"
+                className="font-medium px-6 py-2 rounded-full shadow-sm"
               >
                 Start Creating
               </Button>
@@ -66,7 +63,7 @@ const Navbar = () => {
                 <div className="pt-3">
                   <Button 
                     variant="default" 
-                    className="w-full bg-white text-black hover:bg-gray-100 transition-all duration-200 font-medium py-3 rounded-xl"
+                    className="w-full py-3 rounded-full"
                     onClick={toggleMobileMenu}
                   >
                     Start Creating

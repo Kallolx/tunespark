@@ -91,7 +91,7 @@ const MusicFeatures = () => {
   ];
 
   return (
-    <section ref={sectionRef} className="bg-black text-white py-20">
+    <section ref={sectionRef} className="text-white py-20">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-6xl font-light mb-6 tracking-tighter leading-tight">

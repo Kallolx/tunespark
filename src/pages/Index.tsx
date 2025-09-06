@@ -12,6 +12,7 @@ import Footer from "@/components/Footer";
 import Aurora from "@/components/custom_ui/aurora";
 import MusicFeatures from "@/components/MusicFeatures";
 import Pricing from "@/components/Pricing";
+import Features from "@/components/Features";
 
 const Index = () => {
   const smootherInstance = useRef(null);
@@ -36,7 +37,7 @@ const Index = () => {
       {/* Full-viewport aurora background (fixed) so it sits behind the floating navbar */}
       <div className="fixed inset-0 z-0 pointer-events-none">
         <Aurora
-          colorStops={["#102E50", "#F5C45E", "#BE3D2A"]}
+          colorStops={["#0D1164", "#EA2264", "#F78D60"]}
           blend={0.2}
           amplitude={1.0}
         />
@@ -51,8 +52,10 @@ const Index = () => {
         <div className="relative z-10">
           <ProjectShowcase />
           <CompanyDetails />
+          <Features />
           <MusicFeatures />
           <Pricing />
+          <ClientReviews />
         </div>   
         <div className="relative z-20">
           <Footer />
