@@ -35,9 +35,9 @@ const Navbar = () => {
             <div className="hidden lg:flex items-center">
               <Button 
                 variant="default" 
-                className="font-medium px-6 py-2 rounded-full shadow-sm"
+                className="font-medium px-6 py-2 rounded-full shadow-xl"
               >
-                Start Creating
+                Login
               </Button>
             </div>
 

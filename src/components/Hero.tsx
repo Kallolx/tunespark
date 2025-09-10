@@ -148,7 +148,7 @@ const Hero = () => {
         </motion.div>
       </div>
       {/* Brand Logos - replaced with LogoLoop */}
-      <div className="w-full pt-16 sm:pt-24 md:pt-32 max-w-5xl px-4">
+      <div className="w-full pt-16 sm:pt-12 md:pt-16 max-w-5xl px-4">
         <LogoLoop
           logos={[
             { src: "/brands/1.svg", alt: "Brand 1" },
@@ -156,9 +156,24 @@ const Hero = () => {
             { src: "/brands/3.svg", alt: "Brand 3" },
             { src: "/brands/4.svg", alt: "Brand 4" },
             { src: "/brands/5.svg", alt: "Brand 5" },
+            { src: "/brands/6.svg", alt: "Brand 6" },
+            { src: "/brands/7.svg", alt: "Brand 7" },
+            { src: "/brands/8.svg", alt: "Brand 8" },
+            { src: "/brands/9.svg", alt: "Brand 9" },
+            { src: "/brands/10.svg", alt: "Brand 10" },
+            { src: "/brands/11.svg", alt: "Brand 11" },
+            { src: "/brands/12.svg", alt: "Brand 12" },
+            { src: "/brands/13.svg", alt: "Brand 13" },
+            { src: "/brands/14.svg", alt: "Brand 14" },
+            { src: "/brands/15.svg", alt: "Brand 15" },
+            { src: "/brands/16.svg", alt: "Brand 16" },
+            { src: "/brands/17.svg", alt: "Brand 17" },
+            { src: "/brands/18.svg", alt: "Brand 18" },
+            { src: "/brands/19.svg", alt: "Brand 19" },
+            { src: "/brands/20.svg", alt: "Brand 20" },
           ]}
           speed={20}
-          logoHeight={24}
+          logoHeight={30}
           gap={32}
           pauseOnHover={true}
           fadeOut={true}

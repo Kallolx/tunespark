@@ -96,7 +96,7 @@ const Pricing = () => {
       priceColor: "text-orange-400",
     },
     {
-      name: "Musician Plus",
+      name: "Custom",
       subtitle: "Custom solutions for your unique needs.",
       isCustom: true,
       features: [
@@ -216,11 +216,13 @@ const Pricing = () => {
                     <p className="text-gray-400 text-sm mb-4">{plan.subtitle}</p>
                     <div className="mb-4">
                       {plan.isCustom ? (
-                        <span
-                          className={`text-4xl font-medium tracking-tighter ${plan.priceColor}`}
-                        >
-                          Custom
-                        </span>
+                        <>
+                          <div
+                            className={`text-3xl md:text-4xl font-semibold tracking-tighter ${plan.priceColor}`}
+                          >
+                            Contact Us
+                          </div>
+                        </>
                       ) : (
                         <>
                           <span
@@ -290,11 +292,13 @@ const Pricing = () => {
                     <p className="text-gray-400 text-sm mb-4">{plan.subtitle}</p>
                     <div className="mb-4">
                       {plan.isCustom ? (
-                        <span
-                          className={`text-4xl font-medium tracking-tighter ${plan.priceColor}`}
-                        >
-                          Custom
-                        </span>
+                        <>
+                          <div
+                            className={`text-3xl md:text-4xl font-semibold tracking-tighter ${plan.priceColor}`}
+                          >
+                            Contact Us
+                          </div>
+                        </>
                       ) : (
                         <>
                           <span

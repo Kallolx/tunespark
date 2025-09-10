@@ -97,10 +97,17 @@ const CompanyDetails = () => {
             Meet <span className="aurora-text">TuneSpark</span>
           </h2>
           <p className="text-gray-300 text-lg md:text-xl max-w-3xl mx-auto mb-8">
-            TuneSpark.io is a forward-thinking digital music platform built for
-            the modern artist and label. Founded with the mission to simplify
-            music distribution and maximize revenue, we combine technology,
-            industry expertise, and personalized service.
+            At TuneSpark.io, we empower artists and labels to share their music
+            with the world. With our simple yet powerful distribution platform,
+            you can release your tracks on 150+ global digital platforms
+            including Spotify, Apple Music, YouTube, TikTok, and many more.
+          </p>
+          <p className="text-gray-300 text-lg md:text-xl max-w-3xl mx-auto mb-8">
+            We are a next-generation digital music distribution service
+            dedicated to helping independent artists and record labels grow
+            their audience. Our commitment lies in providing fast delivery,
+            transparent royalty reporting, and 24/7 dedicated support so you
+            can focus on creating music while we handle the rest.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6">
             <AvatarCircles numPeople={99} avatarUrls={avatarUrls} />

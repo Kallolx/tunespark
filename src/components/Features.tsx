@@ -15,8 +15,8 @@ const Features = () => {
 
   const features = [
     {
-      title: "AI Composition",
-      description: "Generate melodies, harmonies, and full arrangements with advanced AI that understands musical theory and your style.",
+      title: "Easy Upload",
+      description: " Drag & drop your tracks with automated metadata detection for faster setup.",
       icon: "/icons/1.png",
       gradient: "from-blue-500 to-cyan-500"
     },
@@ -33,8 +33,8 @@ const Features = () => {
       gradient: "from-purple-500 to-pink-500"
     },
     {
-      title: "MCN Services",
-      description: "Multi-Channel Network services to maximize your content reach and monetization across digital platforms.",
+      title: "Release Control",
+      description: " Set release dates, territories, and promotional campaigns — all from one dashboard",
       icon: "/icons/4.png",
       gradient: "from-yellow-500 to-orange-500"
     },
